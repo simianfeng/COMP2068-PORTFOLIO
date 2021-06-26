@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>{{title}}</title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <link rel="stylesheet" href="/stylesheets/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+    integrity="undefined" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="jumbotron text-center">
+    <h1>Simon Feng's Portfolio</h1>
+    <p>You will find more information about me below:</p>
+    <a class = 'yinkedin' href="https://www.linkedin.com" style="margin-left: 50px; margin-right: 50px; text-decoration: none; color:black"> Linkedin</a>
+    <a class = 'youtube' href="https://www.youtube.com" style="margin-right: 50px; text-decoration: none; color:black"> Youtube</a>
+    <a class = 'instagram' href="https://www.instagram.com" style="margin-right: 50px; text-decoration: none; color:black"> Instagram</a>
+    <a class = 'github' href="https://www.github.com" style="margin-right: 50px; text-decoration: none; color:black"> Github</a>
+  </div>
+  <div>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <a class="navbar-brand" href="/">Simon Feng's Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="nav nav-tabs nav-justified">
+          <li class="nav-item">
+            <a class="nav-link" href="./about" style="color: white;">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./projects" style="color: white;">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contacts" style="color: white;">Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    {{{body}}}
+  </div>
+  <script src="/javascripts/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="undefined"
+    crossorigin="anonymous"></script>
+</body>
